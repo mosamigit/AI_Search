@@ -1,0 +1,24 @@
+https://github.com/openai/openai-cookbook/blob/main/examples/Question_answering_using_embeddings.ipynb
+
+
+Search Filter Ranking with Language-Aware Label Embeddings----eXtreme Multi-Label Classification (XMLC) is the particular case of Multi-Label Classification, which deals with an extremely high number of labels. The main goal is to learn extreme classifier which extracts the subset of relevant labels from extremely large label space.
+
+
+Collaborative Filtering:
+In this systems, collaborative filtering methods use user-item interaction data to build embeddings for users and items.
+These embeddings can be used to find items similar to those liked by a user or users similar to a given user.
+
+Item-Based Collaborative Filtering:
+Item-based collaborative filtering recommends products or items to a user based on the similarity between items the user has interacted with and other items in the catalog.
+
+Hybrid Models:
+Combining multiple approaches, such as content-based and collaborative filtering, allows for more accurate and diverse search results.
+Hybrid models leverage embeddings from various sources to improve recommendations.
+
+Hybrid Embeddings:
+Combining embeddings from different sources (e.g., text, image, metadata) into a single embedding space is known as hybrid embeddings. These are useful for tasks involving multiple modalities.
+
+
+
+
+Hi Rajesh, I search and finally think that one packet should be there where we put parquet file and all frontend related data. If new data came at that time i ll prepare embedding and all with new parquet for that. You have to prepare one script for automation for UI side. when we change files in this packet at that time this automation script will run. So that updated data will be there.
